@@ -1,0 +1,52 @@
+.loginform {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(236, 236, 236);
+    justify-content: center;
+}
+.loginheader {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.loginheader img {
+    width: 350px;
+}
+
+.loginheader h1 {
+    color: rgb(44, 44, 44);
+}
+
+.logininput {
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    color: rgb(44, 44, 44);
+    font-size: 1em;
+    margin-bottom: 10px;
+    max-width: 200px;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.loginbutton {
+    background-color: palevioletred;
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    color: rgb(44, 44, 44);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 5px;
+    max-width: 200px;
+    width: 100%;
+}
+.loginbutton:disabled {
+    background-color: rgb(212, 212, 212);
+    color: rgb(134, 134, 134);
+    border: 0px;
+    cursor: auto;
+}
